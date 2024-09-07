@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 70%;
+    margin-inline: auto;
+    background-color: var(--clr-secondary);
+    color: var(--clr-light);
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: transparent;
+    padding: .7rem 1rem;
+    color: var(--clr-light);
+    border-style: inset;
+    resize: vertical;
+    /* border-color: var(--clr-light); */
+}
+
+button {
+    padding: 1rem 1.6rem;
+    border: 0;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    border-radius: 1.4rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,14 @@
+extend layout 
+
+block body 
+    link(rel="stylesheet", href="/css/create_form.css")
+    main 
+        form(action="/messages/create", method="post") 
+            h1 Add New Message 
+            div
+                label(for="title") Title
+                input#title(type="text", name="title")
+            div
+                label(for="content") Content 
+                textarea#content(name="content" rows="5") 
+            button(type="submit") Create

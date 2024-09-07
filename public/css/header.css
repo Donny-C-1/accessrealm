@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: var(--clr-light);
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0 6px .1px var(--clr-dark);
+
+    .logo {
+        img {
+            height: 2rem;
+            width: auto;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 20%;
+
+        a {
+            font-size: 1.6rem;
+            color: currentColor;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        button {
+            border: 0;
+            background-color: black;
+            color: white;
+            padding: 1rem;
+            border-radius: 1.5rem;
+            cursor: pointer;
+        }
+        button:active {
+            scale: .9;
+        }
+    }
+
+}

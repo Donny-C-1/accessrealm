@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Now-Light
+font link: https://hanken.co/product/now/
+font author: Hanken Design Co.
+font author site: https://hanken.co/
+Slogan Font: Aleo-Light.otf
+
+icon designer: Icons By Alfredo
+icon designer link: /AlfredoCreates
+        
+{"bg":"#EADEE5","icon-gradient-0":"#3C1143","icon-gradient-1":"#C25178","font":"#240D1B","slogan":"#38212f"}
+      

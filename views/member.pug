@@ -1,0 +1,29 @@
+extends layout 
+
+block body
+    br
+    link(rel="stylesheet", href="/css/member.css")
+    h1 Join the Club
+    p.subtext Only the chosen may cross the threshold, for the secrets within are not meant for all eyes.
+    br
+    form(action="/membership" method="post")
+        .inner-area
+            div
+                h2 Become a Member
+                br
+                label(for="membercode")
+                    b Hint: 
+                    | A gentleman's honor is his greatest weapon, but not all who wear the suit can wield it.
+                br
+                br
+                input(type="text" name="membercode" placeholder="Enter the secret code")
+            div
+                h2 Become the admin
+                br
+                b Hint: 
+                | Prove yourself worthy
+                br
+                br
+                input(type="text" name="admincode" placeholder="Enter the admin code")
+        br
+        button(type="submit") Join

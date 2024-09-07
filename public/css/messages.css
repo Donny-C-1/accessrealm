@@ -1,0 +1,22 @@
+
+.message {
+    width: 80%;
+    margin-inline: auto;
+    margin-block: 2rem;
+    border: .15rem solid black;
+    border-radius: 1.4rem;
+    overflow: hidden;
+
+    .head {
+        display: flex;
+        justify-content: space-between;
+        font-weight: var(--fw-bold);
+        padding: .7rem 1rem;
+        background-color: var(--clr-secondary);
+        color: var(--clr-tertiary);
+    }
+
+    .body {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,31 @@
+doctype html 
+html(lang="en")
+    include head.pug 
+    body 
+        link(rel="stylesheet" href="/css/auth_form.css")
+        main 
+            form#form(action="/auth/signup" method="post") 
+                h1 Login
+                .input-control 
+                    label(for="firstname") First Name 
+                    input(type="text" name="firstname" id="firstname")
+                .input-control 
+                    label(for="lastname") Last Name 
+                    input(type="text" name="lastname" id="lastname")
+                .input-control 
+                    label(for="displayname") Display Name 
+                    input(type="text" name="displayname" id="displayname")
+                .input-control 
+                    label(for="email") Email
+                    input(type="email" name="email" id="email")
+                .input-control 
+                    label(for="password") Password
+                    input(type="password" name="password" id="password")
+                .input-control 
+                    label(for="confirmPassword") Confirm Password
+                    input(type="password" name="confirmPassword" id="confirmPassword")
+                button(type="submit") Sign up
+                br
+                br
+                p Already have an account ? 
+                    a(href="/auth/login") Login

@@ -1,0 +1,12 @@
+extends layout
+
+block body
+    link(rel="stylesheet", href="/css/messages.css")
+    main 
+        each message in messages
+            .message
+                .head
+                    p= message.author
+                    p= message.createdOn
+                .body 
+                    p= message.content

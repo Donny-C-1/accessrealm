@@ -1,0 +1,22 @@
+doctype html 
+html(lang="en")
+    include head.pug 
+    body 
+        link(rel="stylesheet" href="/css/auth_form.css")
+        main 
+            form#form(action="/auth/login" method="post") 
+                h1 Login
+                .input-control 
+                    label(for="email") Email
+                    input(type="email" name="email" id="email")
+                    p.error= emailError
+                .input-control 
+                    label(for="password") Password
+                    input(type="password" name="password" id="password")
+                    p.error= passwordError
+                .input-control 
+                button(type="submit") Login
+                br
+                br
+                p Dont have an account ? 
+                    a(href="/auth/signup") Sign up

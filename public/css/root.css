@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-primary: #3492d4;
+    --clr-secondary: #ebb120;
+    --clr-tertiary: #e2e7f0;
+    --clr-light: white;
+    --clr-dark: black;
+    --padding: 1.8rem;
+    --f-head: "Roboto", "Arial Rounded MT", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --f-body: Arial, Helvetica, sans-serif;
+    --fs-sm: 12px;
+    --fs-m: 16px;
+    --fs-l: 24px;
+    --fs-xl: 30px;
+    --fs-xxl: 46px;
+    --fw-bold: 600;
+    --fw-normal: 200;
+
+    --ff-regular: 'MV Boli', cursive;
+}
+
+/* Achromatic Default Scheme */
+
+:root {
+    --clr-primary: #757575;
+    --clr-secondary: #545454;
+    --clr-tertiary: #ADADAD;
+    --clr-dark: #000000;
+    --clr-light: #ffffff;
+
+    /* Potential Color 
+    Bisque
+     */
+
+}
+
+body {
+    font-family: 'MV Boli', cursive;
+}

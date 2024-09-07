@@ -1,0 +1,14 @@
+# vscode settings
+.vscode
+
+# node dependencies
+node_modules
+
+#windows files
+desktop.ini
+
+#personal files
+docs
+
+#environement variables
+.env
